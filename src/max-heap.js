@@ -22,7 +22,7 @@ class MaxHeap {
 	}
 
 	detachRoot() {
-		et {root} = this;
+		let {root} = this;
         if (this.parentNodes.includes(root)) this.parentNodes.shift();
         this.root = null;
         return root;
